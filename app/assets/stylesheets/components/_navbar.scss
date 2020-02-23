@@ -1,0 +1,74 @@
+// .navbar-lewagon {
+//   justify-content: space-between;
+//   background: white;
+// }
+
+// .navbar-lewagon .navbar-collapse {
+//   flex-grow: 0;
+// }
+
+// .navbar-lewagon .navbar-brand img {
+//   width: 40px;
+// }
+
+.navbar {
+  height: 50px;
+  border-bottom: 2px solid $grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .logo {
+    // width: 130px;
+    color: $dark-grey;
+    font-weight: bold;
+  }
+}
+
+.form {
+  text-align: center;
+
+
+  .input-query {
+    width: 250px;
+    padding-left: 4px;
+    border: 2px solid $light-pink;
+    color: $dark-grey;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  .input-query::placeholder {
+    padding-left: 2px;
+    color: $dark-grey;
+    opacity: .5;
+  }
+
+  .search-btn {
+    border: 1px solid $grey;
+    background-color: $light-pink;
+    color: $dark-grey;
+    border-radius: 4px;
+  }
+}
+
+.new-cocktail {
+
+  .add-cocktail {
+    border: 1px solid $grey;
+    border-radius: 4px;
+    background-color: $light-pink;
+    color: $dark-grey;
+    padding: 4px 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+// @media screen and (max-width: 730px){
+//   .logo {
+//     width: 10px;
+//     color: $dark-grey;
+//     font-weight: bold;
+//   }
+// }
